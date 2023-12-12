@@ -1,0 +1,52 @@
+.container {
+    width: 50vw;
+    min-width: 300px;
+    margin: 0 auto; /* Center the container */
+    padding: 50px;
+    padding-bottom: 100px;
+  }
+  
+  .post-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .post-title {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .post-author {
+    font-style: italic;
+    text-align: right;
+    color: grey;
+  }
+
+  .button {
+    opacity: .9;
+    border-radius: 25px;
+    margin: 10px;
+  }
+  
+  /* Additional styles for header and footer */
+  .header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .mb-20px{
+    margin-bottom: 20px;
+  }
