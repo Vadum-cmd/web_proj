@@ -2,10 +2,10 @@
   "name": "my-fibonacci-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "frontend/index.html",
   "scripts": {
-    "start-server1": "node backend/server1.js",
-    "start-server2": "node backend/server2.js"
+    "start-server1": "nodemon backend/server1.js",
+    "start-server2": "nodemon backend/server2.js"
   },
   "author": "",
   "license": "ISC",

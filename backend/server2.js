@@ -1,8 +1,10 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const path = require("path");
 const app = express();
 const PORT = process.env.PORT2 || 3002;
 
+app.use(express.static(path.join(__dirname, 'frontend')))
 app.use(bodyParser.json());
 
 const database = require("./database");

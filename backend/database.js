@@ -22,4 +22,17 @@ async function saveResult(inputNumber, count) {
     }
 }
 
+async function getResult() {
+    const connection = await pool.getConnection();
+
+    try {
+        await connection.execute("select from results where ", [inputNumber, count]);
+    } catch (error) {
+        console.error("Error saving result to the database:", error.message);
+    } finally {
+        connection.release();
+    }
+}
+
+
 module.exports = { saveResult };
