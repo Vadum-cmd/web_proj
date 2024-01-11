@@ -1,0 +1,17 @@
+{
+  "name": "my-fibonacci-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-server1": "node backend/server1.js",
+    "start-server2": "node backend/server2.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mysql2": "^3.7.0"
+  }
+}

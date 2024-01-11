@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#loadingBar {
+    width: 0;
+    height: 20px;
+    background-color: #4CAF50;
+    margin-top: 10px;
+    transition: width 0.5s;
+}
+
+.hidden {
+    display: none;
+}
